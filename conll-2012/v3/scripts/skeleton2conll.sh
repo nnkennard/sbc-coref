@@ -175,7 +175,7 @@ fi
 
 
 
-for language in arabic english chinese; do
+for language in english; do
   # set the EDITED option only for english
   if [[ $language == "english" ]]; then
     EDITED="-edited"
